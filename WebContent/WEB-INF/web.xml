@@ -9,4 +9,35 @@
     <welcome-file>default.htm</welcome-file>
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
+ <servlet>
+  	<description></description>
+  	<display-name>AddUserController</display-name>
+  	<servlet-name>AddUserController</servlet-name>
+  	<servlet-class>com.controller.AddUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>AddUserController</servlet-name>
+  	<url-pattern>/AddUserController</url-pattern>
+  </servlet-mapping>
+  <servlet>
+  	<description></description>
+  	<display-name>UserListController</display-name>
+  	<servlet-name>UserListController</servlet-name>
+  	<servlet-class>com.controller.UserListController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UserListController</servlet-name>
+  	<url-pattern>/UserListController</url-pattern>
+  </servlet-mapping>
+  
+   <servlet>
+  	<description></description>
+  	<display-name>LoginUserController</display-name>
+  	<servlet-name>LoginUserController</servlet-name>
+  	<servlet-class>com.controller.LoginUserController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>LoginUserController</servlet-name>
+  	<url-pattern>/LoginUserController</url-pattern>
+  </servlet-mapping>
 </web-app>

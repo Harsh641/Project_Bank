@@ -5,7 +5,7 @@ import java.sql.*;
 public class DbConnection {
 	public static Connection getConnection() {
 		String driver = "com.mysql.jdbc.Driver";
-		String url = "jdbc:mysql://localhost:3306/students";
+		String url = "jdbc:mysql://localhost:3306/Projects";
 		String userName = "root";
 		String password = "root";
 		Connection con = null;
@@ -15,6 +15,9 @@ public class DbConnection {
 			con = DriverManager.getConnection(url, userName, password);
 			if(con != null) {
 				System.out.println("Connected.....");
+			}
+			else {
+				System.out.println("Error..........");
 			}
 		} 
 		catch (Exception e) {

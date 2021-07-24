@@ -2,7 +2,7 @@ package com.bean;
 
 public class BankBean {
 	int acc_no;
-	String firstName, lastName, email, password;
+	String first_name, last_name, email, password;
 	
 	public int getAcc_no() {
 		return acc_no;
@@ -11,16 +11,16 @@ public class BankBean {
 		this.acc_no = acc_no;
 	}
 	public String getFirstName() {
-		return firstName;
+		return first_name;
 	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
+	public void setFirstName(String first_name) {
+		this.first_name = first_name;
 	}
 	public String getLastName() {
-		return lastName;
+		return last_name;
 	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
+	public void setLastName(String last_name) {
+		this.last_name = last_name;
 	}
 	public String getEmail() {
 		return email;
@@ -34,6 +34,4 @@ public class BankBean {
 	public void setPassword(String password) {
 		this.password = password;
 	}
-	
-	
 }
